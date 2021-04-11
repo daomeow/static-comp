@@ -5,6 +5,7 @@
 /* ***** Global Rules ***** */
 body {
   margin: 0;
+  font-family: 'Cairo', sans-serif;
 }
 
 /* ***** Mobile View ***** */ 
@@ -43,7 +44,7 @@ body {
   .nav-container {
     display: flex;
     flex-direction: row;
-    font-size: 2rem;
+    font-size: 23px;
     list-style-type: none;
     padding-left: 10px;
     margin-top: 0;
@@ -51,6 +52,10 @@ body {
 
   .nav {
     padding-right: 35px;
+  }
+  
+  .nav-img {
+    width: 2rem;
   }
 
   /* Main Mobile */
@@ -71,10 +76,11 @@ body {
   .card {
     border-radius: 6rem;
     padding: 0 2rem;
-    margin-bottom: 3rem;
+    margin-bottom: 15px;
     background-color: #848b98;
     width: 33rem;
     height: 40rem;
+    box-shadow: 2px 2px rgba(0, 0, 0, 0.5);
   }
 
   h3 {
@@ -113,6 +119,7 @@ body {
   .number {
     margin-top: 0;
   }
+
   .number {
     font-size: 4rem;
     color: #693C72;
@@ -121,22 +128,131 @@ body {
 }
 
 
-/* ***** iPad View ***** */ 
-/* @media only screen and (min-device-width: 768px){} */
+/* ***** Small View ***** */ 
+@media only screen and (min-width: 400px){
+  header {
+    width: 100%
+  }
 
+  .user-img,
+  .user-handle {
+    font-size: 15px;
+  }
+
+  .nav-container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .app-name {
+    font-size: 3rem;
+  }
+
+  /* Main Desktop */
+  main {
+    width: 100%;
+    height: 87vh;
+  }
+
+  .cards-container {
+      display: grid;
+      grid-template-columns: repeat(2, .5fr);
+      grid-gap: 10px;
+  }
+  
+  .card {
+    border-radius: 3.5rem;
+    width: 13rem;
+    height: 20rem;
+  }
+
+  h3 {
+    font-size: 20px;
+    margin: 0 0;
+  }
+
+  .main-title {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+  }
+
+  .img {
+    height: 7rem;
+    margin-top: 2rem;
+  }
+
+  .dob,
+  .fact,
+  .meds,
+  .awards {
+    font-size: 13px;
+  }
+
+  .fact {
+    padding: 10px 0 10px 5px;
+  }
+
+  .awards {
+    margin-bottom: 0;
+    font-weight: bold;
+  }
+
+  .dob,
+  .number {
+    margin-top: 0;
+  }
+  .number {
+    font-size: 25px;
+    font-weight: bold;
+  }
+}
+
+/* ***** M View ***** */ 
+@media only screen and (min-width: 900px){
+  .nav-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 23px;
+  }
+  
+  .cards-container {
+      display: grid;
+      grid-template-columns: repeat(3, .33fr);
+      grid-gap: 10px;
+  }
+}
 
 /* ***** Desktop View ***** */ 
-/* @media screen and (min-device-width: 801px) {
+/* @media screen and (min-device-width: 801px) { */
+@media screen and (min-width: 1100px) {
+  .user-container {
+    padding: 10px 15px 0 0;
+  }
+  
+  .lower-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
   .user-img {
-    height: 2rem;
+    height: 20px;
   }
-
+  
   .user-handle {
-    font-size: 1.5rem;
+    font-size: 18px;
   }
+  
+  .app-name {
+    padding-right: 15px;
+    font-size: 3.5rem;
+    margin-top: 5px;
+  }
+  
+  /* Main Desktop */
+  .cards-container {
+    grid-template-columns: repeat(4, .25fr);
+  }
+}
 
-  .bunny-img {
-    height: 45rem;
-  }
-} */
 
