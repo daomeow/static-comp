@@ -11,6 +11,6 @@ Recreated a webpage that has a responsive layout
 - `cd` into the project
 - `open index.html` to open GitHub pages
 ## Next Steps
-- Add function to navigation bar
+- Add functionality to navigation bar
 ## Authors
 Melanie Daoheuang [@daomeow](https://github.com/daomeow) 
