@@ -1,6 +1,6 @@
 /* * {
-  border: 1px solid red;
-} */
+  border: 1px solid red
+  } */
 
 /* ***** Global Rules ***** */
 body {
@@ -28,26 +28,31 @@ body {
   }
   
   .user-img {
-    height: 2rem;
+    height: 20px;
   }
   
   .user-handle {
-    font-size: 30px;
+    font-size: 17px;
   }
   
   .app-name {
     padding-right: 15px;
-    font-size: 3.5rem;
+    font-size: 30px;
     margin-top: 5px;
   }
 
   .nav-container {
     display: flex;
     flex-direction: row;
-    font-size: 23px;
+    font-size: 20px;
     list-style-type: none;
     padding-left: 10px;
     margin-top: 0;
+  }
+
+  .fa-list-ul,
+  .fa-clock {
+    padding-left: 20px;;
   }
 
   .nav {
@@ -74,13 +79,12 @@ body {
   }
 
   .card {
-    border-radius: 6rem;
+    border-radius: 1rem;
     padding: 0 2rem;
     margin-bottom: 15px;
     background-color: #848b98;
-    width: 33rem;
     height: 40rem;
-    box-shadow: 2px 2px rgba(0, 0, 0, 0.5);
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.5);
   }
 
   h3 {
@@ -89,7 +93,7 @@ body {
   }
 
   .main-title {
-    font-size: 3rem;
+    font-size: 2rem;
     margin: 2rem 0;
   }
 
@@ -127,7 +131,6 @@ body {
   }
 }
 
-
 /* ***** Small View ***** */ 
 @media only screen and (min-width: 400px){
   header {
@@ -142,16 +145,21 @@ body {
   .nav-container {
     display: flex;
     flex-direction: column;
+    font-size: 20px;
   }
 
+  .fa-list-ul,
+  .fa-clock {
+    padding-left: 0px;;
+  }
   .app-name {
-    font-size: 3rem;
+    font-size: 2rem;
   }
 
   /* Main Desktop */
   main {
     width: 100%;
-    height: 87vh;
+    height: 100%;
   }
 
   .cards-container {
@@ -161,7 +169,7 @@ body {
   }
   
   .card {
-    border-radius: 3.5rem;
+    border-radius: 1rem;
     width: 13rem;
     height: 20rem;
   }
@@ -172,7 +180,7 @@ body {
   }
 
   .main-title {
-    font-size: 2.5rem;
+    font-size: 2rem;
     margin: 1rem 0;
   }
 
@@ -220,6 +228,11 @@ body {
       grid-template-columns: repeat(3, .33fr);
       grid-gap: 10px;
   }
+
+  .fa-list-ul,
+  .fa-clock {
+    padding-left: 20px;;
+  }
 }
 
 /* ***** Desktop View ***** */ 
@@ -250,9 +263,14 @@ body {
   }
   
   /* Main Desktop */
+  main {
+    height: 58rem;
+  }
+
   .cards-container {
     grid-template-columns: repeat(4, .25fr);
   }
 }
 
 
+  
