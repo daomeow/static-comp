@@ -1,5 +1,6 @@
 # Static Comp
 Recreate a webpage that has a responsive layout
+
 ![Responsive layout GIF](https://media.giphy.com/media/GiYgUkWgPJV09ZG4D4/giphy.gif)
 ## Description
 An in-depth paragraph about your project and overview of use.
