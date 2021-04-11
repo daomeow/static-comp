@@ -35,10 +35,17 @@ body {
     font-size: 17px;
   }
   
+  .app-name-container {
+    display: flex;
+    flex-direction: row;
+  }
   .app-name {
-    padding-right: 15px;
     font-size: 30px;
     margin-top: 5px;
+  }
+
+  .fa-pagelines {
+    font-size: 45px;
   }
 
   .nav-container {
@@ -123,7 +130,6 @@ body {
   .number {
     margin-top: 0;
   }
-
   .number {
     font-size: 4rem;
     color: #693C72;
@@ -152,8 +158,13 @@ body {
   .fa-clock {
     padding-left: 0px;;
   }
+
   .app-name {
     font-size: 2rem;
+  }
+
+  .fa-pagelines {
+    font-size: 60px;
   }
 
   /* Main Desktop */
@@ -260,6 +271,10 @@ body {
     padding-right: 15px;
     font-size: 3.5rem;
     margin-top: 5px;
+  }
+
+  .fa-pagelines {
+    font-size: 85px;
   }
   
   /* Main Desktop */
