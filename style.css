@@ -180,7 +180,7 @@ body {
     display: grid;
     grid-template-columns: repeat(2, .5fr);
     grid-gap: 10px;
-    padding: 0;
+    padding: 0 10px;
   }
   
   .card {
@@ -232,7 +232,7 @@ body {
 }
 
 /* ***** M View ***** */ 
-@media only screen and (min-width: 900px){
+@media only screen and (min-width: 850px){
   .nav-container {
     display: flex;
     flex-direction: row;
