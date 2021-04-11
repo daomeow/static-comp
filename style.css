@@ -126,17 +126,85 @@ body {
 
 
 /* ***** Desktop View ***** */ 
-/* @media screen and (min-device-width: 801px) {
+@media screen and (min-device-width: 801px) {
+  header {
+    width: 71.2rem;
+  }
+
+  .user-container {
+    padding: 10px 15px 0 0;
+  }
+  
+  .lower-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
   .user-img {
-    height: 2rem;
+    height: 20px;
   }
-
+  
   .user-handle {
-    font-size: 1.5rem;
+    font-size: 18px;
+  }
+  
+  .app-name {
+    padding-right: 15px;
+    font-size: 3.5rem;
+    margin-top: 5px;
+  }
+  
+  /* Main Desktop */
+  main {
+    width: 71.2rem;
   }
 
-  .bunny-img {
-    height: 45rem;
+  .card {
+    border-radius: 3.5rem;
+    width: 15rem;
+    height: 20rem;
   }
-} */
+
+  h3 {
+    font-size: 20px;
+    margin: 0 0;
+  }
+
+  .main-title {
+    font-size: 2.5rem;
+    margin: 1rem 0;
+  }
+
+  .img {
+    height: 7rem;
+    margin-top: 2rem;
+  }
+
+  .dob,
+  .fact,
+  .meds,
+  .awards {
+    font-size: 13px;
+  }
+
+  .fact {
+    padding: 10px 0 10px 5px;
+  }
+
+  .awards {
+    margin-bottom: 0;
+    font-weight: bold;
+  }
+
+  .dob,
+  .number {
+    margin-top: 0;
+  }
+  .number {
+    font-size: 25px;
+    font-weight: bold;
+  }
+}
+
 
