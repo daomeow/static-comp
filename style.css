@@ -1,0 +1,102 @@
+/* * {
+  border: 1px solid red;
+} */
+
+/* ***** Global Rules ***** */
+body {
+  margin: 0;
+}
+
+header {
+  background-color: #bdd2b6;
+  margin: 0;
+}
+
+/* .user-container {
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px 15px 0 0;
+}
+
+.lower-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  font-size: 2rem;
+  list-style-type: none;
+} */
+
+/* ***** Mobile View ***** */ 
+@media screen and (min-device-width: 320px) {
+  
+  .user-container {
+    display: flex;
+    justify-content: flex-end;
+    padding: 20px 15px 0 0;
+  }
+  
+  .lower-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .user-img {
+    height: 2rem;
+  }
+  
+  .user-handle {
+    font-size: 2.3rem;
+  }
+  
+  .app-name {
+    padding-right: 15px;
+    font-size: 3rem;
+  }
+
+  .nav-container {
+    display: flex;
+    flex-direction: row;
+    font-size: 2rem;
+    list-style-type: none;
+    padding-left: 10px;
+  }
+
+  .nav {
+    padding-right: 35px;
+  }
+
+  /* Main Mobile */
+  h2 {
+    font-size: 3rem;
+  }
+  .bunny-img {
+    height: 45rem;
+  }
+}
+
+
+
+/* ***** iPad View ***** */ 
+/* @media only screen and (min-device-width: 768px){} */
+
+
+/* ***** Desktop View ***** */ 
+@media screen and (min-device-width: 801px) {
+  .user-img {
+    height: 2rem;
+  }
+
+  .user-handle {
+    font-size: 1.5rem;
+  }
+
+  .bunny-img {
+    height: 45rem;
+  }
+}
