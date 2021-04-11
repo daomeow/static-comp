@@ -7,18 +7,13 @@ body {
   margin: 0;
 }
 
-header {
-  background-color: #bb8082;
-  margin: 0;
-}
-
-main {
-  background-color: #c5ced2;
-}
-
 /* ***** Mobile View ***** */ 
 @media screen and (min-device-width: 320px) {
-  
+  header {
+    background-color: #bb8082;
+    margin: 0;
+    width: 40.1rem;
+  }
   .user-container {
     display: flex;
     justify-content: flex-end;
@@ -63,6 +58,8 @@ main {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #c5ced2;
+    width: 40.1rem;
   }
 
   .card-header {
@@ -76,30 +73,30 @@ main {
     padding: 0 2rem;
     margin-bottom: 3rem;
     background-color: #848b98;
-    width: 52rem;
-    height: 63rem;
+    width: 33rem;
+    height: 40rem;
   }
 
   h3 {
-    font-size: 3.5rem;
+    font-size: 2.5rem;
     margin: 0 0;
   }
 
   .main-title {
-    font-size: 5rem;
+    font-size: 3rem;
     margin: 2rem 0;
   }
 
   .img {
-    height: 28rem;
-    margin-top: 3rem;
+    height: 15rem;
+    margin-top: 2rem;
   }
 
   .dob,
   .fact,
   .meds,
-  .attachments {
-    font-size: 2.2rem;
+  .awards {
+    font-size: 1.5rem;
   }
 
   .fact {
@@ -107,8 +104,9 @@ main {
     padding: 20px 0 20px 5px;
   }
 
-  .attachments {
+  .awards {
     margin-bottom: 0;
+    font-weight: bold;
   }
 
   .dob,
@@ -128,7 +126,7 @@ main {
 
 
 /* ***** Desktop View ***** */ 
-@media screen and (min-device-width: 801px) {
+/* @media screen and (min-device-width: 801px) {
   .user-img {
     height: 2rem;
   }
@@ -140,4 +138,5 @@ main {
   .bunny-img {
     height: 45rem;
   }
-}
+} */
+
