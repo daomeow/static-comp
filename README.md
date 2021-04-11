@@ -1,8 +1,8 @@
 # Static Comp
-Recreate a webpage that has a responsive layout
 
 ![Responsive layout GIF](https://media.giphy.com/media/GiYgUkWgPJV09ZG4D4/giphy.gif)
 ## Description
+Recreated a webpage that has a responsive layout
 - CSS Grid and Flex-box were both utilized
 - `@media` : mobile, small, medium and large desktop views.
 ## Setup
