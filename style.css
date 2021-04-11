@@ -71,7 +71,7 @@ body {
   .card {
     border-radius: 6rem;
     padding: 0 2rem;
-    margin-bottom: 3rem;
+    margin-bottom: 15px;
     background-color: #848b98;
     width: 33rem;
     height: 40rem;
@@ -160,9 +160,15 @@ body {
     width: 71.2rem;
   }
 
+  .cards-container {
+    display: grid;
+    grid-template-columns: repeat(4, .25fr);
+    grid-gap: 10px;
+  }
+
   .card {
     border-radius: 3.5rem;
-    width: 15rem;
+    width: 13rem;
     height: 20rem;
   }
 
