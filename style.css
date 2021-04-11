@@ -1,3 +1,7 @@
+/* * {
+  border: 1px solid red
+  } */
+
 /* ***** Global Rules ***** */
 body {
   margin: 0;
@@ -44,6 +48,11 @@ body {
     list-style-type: none;
     padding-left: 10px;
     margin-top: 0;
+  }
+
+  .fa-list-ul,
+  .fa-clock {
+    padding-left: 20px;;
   }
 
   .nav {
@@ -139,6 +148,10 @@ body {
     font-size: 20px;
   }
 
+  .fa-list-ul,
+  .fa-clock {
+    padding-left: 0px;;
+  }
   .app-name {
     font-size: 2rem;
   }
@@ -215,6 +228,11 @@ body {
       grid-template-columns: repeat(3, .33fr);
       grid-gap: 10px;
   }
+
+  .fa-list-ul,
+  .fa-clock {
+    padding-left: 20px;;
+  }
 }
 
 /* ***** Desktop View ***** */ 
@@ -255,3 +273,4 @@ body {
 }
 
 
+  
