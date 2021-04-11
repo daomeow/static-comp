@@ -1,6 +1,6 @@
-/* * {
+* {
   border: 1px solid red;
-} */
+}
 
 /* ***** Global Rules ***** */
 body {
@@ -62,8 +62,8 @@ header {
   }
 
   .card {
-    border: 10px solid black;
-    padding: 0 6rem;
+    border-radius: 6rem;
+    padding: 0 2rem;
     background-color: #C6A9A3;
   }
 
@@ -79,7 +79,7 @@ header {
 
   .img {
     height: 35.2rem;
-    margin-top: 2rem;
+    margin-top: 2.5rem;
   }
 
   .dob,
